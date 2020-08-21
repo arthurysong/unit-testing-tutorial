@@ -23,3 +23,11 @@ npm view react versions => to see the latest versions of a package
 console.log(wrapper.debug()) => to output what a shallow is rendering.
 shallow().childAt() => grabs the child component of index you pass
 .dive() => enzyme method will grab nested elements instead of just shallow.
+
+simulate enzyme documentation
+
+Checking your methods:
+One that updates your component state
+One that returns a value
+
+What is shallow.instance??? Returns a classInstance where you can use the methods within the class. And you can also the state of the class.!!
