@@ -25,6 +25,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "CI=true npm test",
+      "...": "..."
+    }
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -42,6 +49,7 @@
   },
   "devDependencies": {
     "check-prop-types": "^1.1.2",
+    "husky": "^4.2.5",
     "moxios": "^0.4.0"
   }
 }

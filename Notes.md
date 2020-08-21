@@ -31,3 +31,6 @@ One that updates your component state
 One that returns a value
 
 What is shallow.instance??? Returns a classInstance where you can use the methods within the class. And you can also the state of the class.!!
+
+Husky for testing before committing, go to husky github
+Add CI=true, so husky doesn't run test in watch mode
