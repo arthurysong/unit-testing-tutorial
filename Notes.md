@@ -13,3 +13,13 @@ Find your own way to organize your tests.
 
 Put your unit tests next to your component file using compName.unit.test.js
 Put your int tests in tests/int named intName.int.test.js
+
+PropTypes are important because it lets other devs know what kind of props the component should receive instead of looking through the component to find out...
+It's basically a map of your component.
+What is the data-test attribute?
+
+npm view react versions => to see the latest versions of a package
+
+console.log(wrapper.debug()) => to output what a shallow is rendering.
+shallow().childAt() => grabs the child component of index you pass
+.dive() => enzyme method will grab nested elements instead of just shallow.
